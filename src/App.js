@@ -8,7 +8,7 @@ import Search from './components/Search/Search';
 
 function App() {
   return (
-    <div >
+    <div className='w-[85%] m-auto bg-white'>
       <NavBar/>
       <Search/>
       <JobBar/>
