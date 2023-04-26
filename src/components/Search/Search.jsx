@@ -9,21 +9,21 @@ const Search = ()=>{
             <form>
                 <div className='flex items-center justify-between p-5 bg-white shadow-greyish-500 gap-[px]'>
                     <div className='searchOption flex items-center bg-white '>
-                        <AiOutlineSearch className='icon text-[25px]'/>
+                        <AiOutlineSearch className='icon text-[25px] hover:text-blueColor'/>
                         <input type="text" placeholder="Search by jobs" className='focus:outline-none w-[100%] bg-transparent text-blue-500'/>
-                        <CiCircleRemove />
+                        <CiCircleRemove  className='icon text-[30px] text-[#a5a6a6] hover:text-blueColor'/>
                     </div>
                     <div className='searchlocation flex items-center gap-2'>
                         {/* <AiOutlineSearch /> */}
-                        <BiLocationPlus className='icon text-[25px]'/>
+                        <BiLocationPlus className='icon text-[25px] hover:text-blueColor'/>
                         <input type="text" placeholder="Search by location"  className='focus:outline-none w-[100%] bg-transparent text-blue-500'/>
-                        <CiCircleRemove />
+                        <CiCircleRemove className='icon text-[30px] text-[#a5a6a6] hover:text-blueColor'/>
                     </div>
                     <div className='searchcompany flex items-center bg-white '>
                         {/* <AiOutlineSearch /> */}
-                        <AiOutlineHome className='icon text-[25px]'/>
+                        <AiOutlineHome className='icon text-[25px] hover:text-blueColor'/>
                         <input type="text" placeholder="Search by company" className='focus:outline-none w-[100%] bg-transparent text-blue-500'/>
-                        <CiCircleRemove />
+                        <CiCircleRemove className='icon text-[30px] text-[#a5a6a6] hover:text-blueColor' />
                     </div>
                 <div>
 
