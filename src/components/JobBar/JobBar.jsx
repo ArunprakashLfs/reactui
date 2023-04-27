@@ -76,7 +76,7 @@ const JobBar = ()=>{
                     <p>{company}</p>
                     <p>{location}</p>
                 </span>
-                <div className="w-[100%] flex items-center justify-center"><button className="group-hover:text-white p-[5px] rounded-[10px] m-[auto] hover:bg-white hover:color-textColor">Apply Now</button></div>
+                <div className="w-[100%] flex items-center justify-center bo"><button className="border-[2px] hover:border-white group-hover:text-white p-[5px] rounded-[10px] m-[auto] hover:bg-white  group-hover/item:text-textColor">Apply Now</button></div>
             </div>
                )
             })}
