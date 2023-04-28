@@ -59,7 +59,7 @@ const Search = ()=>{
                         {/* <option>Ui/Ux Developer</option> */}
                     </select>
                 </div>
-                <span className='text-[#a1a1a1] p-2 rounded-[5px] cursor-pointer hover:bg-blueColor hover:text-white'>Clear</span>
+                <span className='text-[#a1a1a1] p-2 rounded-[5px] cursor-pointer '>Clear All</span>
             </div>
         </div>
     )
