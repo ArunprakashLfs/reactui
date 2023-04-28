@@ -1,3 +1,5 @@
+import {BiTimeFive} from 'react-icons/bi'
+
 const JobBar = ()=>{
     const Data = [
         {
@@ -64,14 +66,14 @@ const JobBar = ()=>{
             {Data.map(({title, description,company, location, id})=>{
                return(
                 <div key={id} className="card group group/item  p-[20px] w-[240px]  bg-white rounded-[10px] hover:bg-blueColor shadow-lg shadow-greyish-400/700 hover:shadow-lg">
-                <span className="p-[10px] m-auto group-hover:text-white">
-                    <h2 className="text-16px p-[5px]">{title}</h2>
+                <span className="flex items-center justify-between p-[10px] m-auto group-hover:text-white">
+                    <h2 className="text-16px font-semibold p-[5px] ">{title}</h2>
+                    <span className='flex items-center gap-2 text-[#ccc]'>
+                        <BiTimeFive/>Now
+                    </span>
                 </span> 
-                <span className="w-[100%] flex justify-center items-center group-hover:text-white">
-                    <p className="flex justify-center items-center">{description}</p>
-                    
-                </span>
-                <hr className="bg-blueColor border-2px"/>
+                <p className="text-[13px] text-[#95959] group-hover:text-white">{description}</p>
+                <hr className="bg-blueColor border-2px pt-20px border-t-[2px]"/>
                 <span className="flex flex-col items-center justify-between mt-10px group-hover:text-white ">
                     <p>{company}</p>
                     <p>{location}</p>
