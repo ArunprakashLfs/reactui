@@ -1,3 +1,4 @@
+import {AiFillFacebook,AiFillTwitterCircle,AiFillLinkedin} from 'react-icons/ai'
 const Footer = ()=>{
     return(
         <div className="bg-blueColor grid grid-cols-5 justify-center items-center mt-[4rem] p-[5rem] gap-[3rem]">
@@ -9,11 +10,41 @@ const Footer = ()=>{
             </div>
             <div className="grid text-white">
                 <h2>Company</h2>
+                
                 <div>
                     <li>value</li>
                     <li>Worklife</li>
                     <li>carrier</li>
                     <li>workflow</li>
+                </div>
+            </div>
+            <div className="grid text-white">
+                <h2>Company</h2>
+                <div>
+                    <li>value</li>
+                    <li>Worklife</li>
+                    <li>carrier</li>
+                    <li>workflow</li>
+                </div>
+            </div>
+            <div className="grid text-white">
+                <h2>Company</h2>
+                <div>
+                    <li>value</li>
+                    <li>Worklife</li>
+                    <li>carrier</li>
+                    <li>workflow</li>
+                </div>
+            </div>
+            <div>
+                <h2>Contact Details</h2>
+                <div className="logoDiv">
+                    <h1 className="logo text-[25px] text-white"><strong>Job</strong>Search</h1>
+                </div>
+                <div className='flex gap-[2rem]'>
+                    <AiFillFacebook/>
+                    <AiFillTwitterCircle/>
+                    <AiFillLinkedin/>
                 </div>
             </div>
 
