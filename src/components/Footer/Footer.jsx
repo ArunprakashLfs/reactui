@@ -37,12 +37,12 @@ const Footer = ()=>{
                 </div>
             </div>
             <div>
-                <h2>Contact Details</h2>
-                <div className="logoDiv">
+                <h2 className='text-white'>  Contact Details</h2>
+                <div className="logoDiv mb-[1rem]">
                     <h1 className="logo text-[25px] text-white"><strong>Job</strong>Search</h1>
                 </div>
-                <div className='flex gap-[2rem]'>
-                    <AiFillFacebook/>
+                <div className='flex gap-[2rem] text-white rounded-[full]' >
+                    <AiFillFacebook className='rounded-[full]'/>
                     <AiFillTwitterCircle/>
                     <AiFillLinkedin/>
                 </div>
